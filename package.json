@@ -1,0 +1,40 @@
+{
+  "name": "amoratis-chmod-website",
+  "description": "Website for project demonstration",
+  "version": "1.0.0",
+  "homepage": "http://chmod.jackamoratis.com",
+  "author": {
+    "name": "jackamoratis",
+    "email": "jackamoratis@gmail.com",
+    "url": "http://jackamoratis.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamorat/knockout-js-chmod-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamorat/knockout-js-chmod-site/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://chmod.jackamoratis.com/blob/master/LICENSE-GPLv3"
+    }
+  ],
+  "main": "lib/amoratis-chmod-website",
+  "engines": {
+    "node": "0.0.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-uglify": "~0.5.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}

@@ -18,7 +18,8 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dist: {
-        src: ['lib/<%= pkg.name %>.js'],
+        //src: ['lib/<%= pkg.name %>.js'],
+        src: ['lib/chmod-converter-javascript.js'],
         dest: 'dist/<%= pkg.name %>.js'
       },
     },
